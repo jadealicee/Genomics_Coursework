@@ -98,8 +98,6 @@ bedtools intersect -wao -a 500_top20 -b C_excelsa_V5_braker2_wRseq.gff3 | > 500b
 #make ID column easier to read by isolating it with the scaf column
 awk '{print $1, $15}' 500bedtools | > 500bedtoolsnew
 
-#create table comparing these ID values w/ A. thaliana homologs
-
 
 
 
